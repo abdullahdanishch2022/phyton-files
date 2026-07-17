@@ -25,3 +25,12 @@ bags=total//25
 print("final bags packed",bags)
 earnings=total*priceperkg
 print("total earnings are",earnings)
+# Compare this year's harvest with last year
+
+last_year = 500
+
+print("Better than last year? :", total > last_year)
+
+print("Same as last year? :", total == last_year)
+
+print("At least as good? :", total >= last_year)
